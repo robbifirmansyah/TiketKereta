@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pemesanan_tiket_kereta"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="75dp"/>
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/nama_pemesan"
+            android:layout_marginBottom="25dp"
+            android:drawableStart="@drawable/baseline_person_24"
+            android:drawablePadding="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_time"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_edittext"
+            android:text="@string/jam_keberangkatan"
+            android:layout_marginBottom="25dp"
+            android:drawableStart="@drawable/baseline_access_time_24"
+            android:drawablePadding="10dp"
+            android:textAllCaps="false"
+            android:textColor="#98949B"
+            android:gravity="start|center_vertical"
+            android:textSize="16dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_date"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_edittext"
+            android:text="@string/pilih_tanggal_keberangkatan"
+            android:layout_marginBottom="25dp"
+            android:drawableStart="@drawable/baseline_calendar_month_24"
+            android:drawablePadding="10dp"
+            android:textAllCaps="false"
+            android:textColor="#98949B"
+            android:gravity="start|center_vertical"
+            android:textSize="16dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_destination"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="75dp"
+            android:textColor="#98949B"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_order"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pesan_tiket"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/register_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</LinearLayout>

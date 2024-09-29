@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#525BFF</item>
+        <item name="colorPrimaryDark">#525BFF</item>
+        <item name="colorAccent">#525BFF</item>
+    </style>
+
+    <!-- Custom DatePickerDialog Theme -->
+    <style name="CustomDatePickerDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#525BFF</item>
+        <item name="android:buttonBarButtonStyle">@style/DialogButtonStyle</item> <!-- Target button text directly -->
+    </style>
+
+    <!-- Custom TimePickerDialog Theme -->
+    <style name="CustomTimePickerDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#525BFF</item>
+        <item name="android:buttonBarButtonStyle">@style/DialogButtonStyle</item> <!-- Target button text directly -->
+    </style>
+
+    <!-- Style for buttons inside dialogs -->
+    <style name="DialogButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#525BFF</item> <!-- Explicitly set button text color -->
+        <item name="android:textAllCaps">false</item> <!-- Optional: disable all caps if needed -->
+    </style>
+</resources>

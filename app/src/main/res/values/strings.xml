@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tiket Kereta</string>
+    <string name="pesan_tiket">Pesan Tiket</string>
+    <string name="tujuan">Tujuan</string>
+    <string name="pilih_tanggal_keberangkatan">Pilih Tanggal keberangkatan</string>
+    <string name="jam_keberangkatan">Jam Keberangkatan</string>
+    <string name="nama_pemesan">Nama Pemesan</string>
+    <string name="pemesanan_tiket_kereta">Pemesanan Tiket Kereta</string>
+    <string name="var_tujuan"><![CDATA[<Tujuan>]]></string>
+    <string name="var_tanggal"><![CDATA[<Tanggal>]]></string>
+    <string name="var_jam"><![CDATA[<Jam>]]></string>
+    <string name="var_nama"><![CDATA[<Nama>]]></string>
+</resources>
